@@ -1,0 +1,71 @@
+@import "tailwindcss";
+* {
+  font-family:
+    "Pretendard Variable",
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    "Segoe UI",
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    "Malgun Gothic",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    sans-serif;
+}
+@theme {
+  --*: initial;
+
+  --spacing-6: 0.375rem;
+  --spacing-8: 0.5rem;
+  --spacing-12: 0.75rem;
+  --spacing-16: 1rem;
+  --spacing-20: 1.25rem;
+  --spacing-24: 1.5rem;
+
+  --radius-4: 0.25rem;
+  --radius-8: 0.5rem;
+  --radius-14: 0.875rem;
+  --radius-20: 1.25rem;
+  --radius-76: 4.75rem;
+  --radius-max: 999rem;
+}
+.title-l {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: Bold;
+  letter-spacing: -0.01em;
+}
+.title-m {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: Bold;
+  letter-spacing: -0.01em;
+}
+.title-s {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: Bold;
+  letter-spacing: -0.02em;
+}
+.body-m {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.body-s {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.label-m {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.label-s {
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 400;
+}
