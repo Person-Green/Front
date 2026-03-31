@@ -1,0 +1,12 @@
+name: "🙏 개선하기"
+description: "더 나은 서비스를 위하여! 위하여~"
+title: "[개선] "
+labels: "개선"
+body:
+  - type: textarea
+    attributes:
+      label: 개선 방향
+      description: 개선 방향을 작성해 주세요.
+      placeholder: 꼼꼼하게 적을수록 좋습니다!
+    validations:
+      required: true
