@@ -1,7 +1,9 @@
+import { Outlet } from "react-router-dom";
+
 const Layout = () => {
   return(
 		<section>
-      adad
+      <Outlet />
     </section>
   );
 }
