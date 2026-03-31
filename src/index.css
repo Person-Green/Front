@@ -30,6 +30,58 @@
   --radius-20: 1.25rem;
   --radius-76: 4.75rem;
   --radius-max: 999rem;
+
+  /* -- Primitives -- */
+  /* -- Grayscale -- */
+  --color-grayscale-100: oklch(16.5% 0.01 258);
+  --color-grayscale-90: oklch(21.4% 0.01 258);
+  --color-grayscale-80: oklch(28.8% 0.015 258);
+  --color-grayscale-70: oklch(37.9% 0.02 258);
+  --color-grayscale-60: oklch(48.9% 0.02 258);
+  --color-grayscale-50: oklch(61.1% 0.02 258);
+  --color-grayscale-40: oklch(72.7% 0.015 258);
+  --color-grayscale-30: oklch(84.4% 0.01 258);
+  --color-grayscale-20: oklch(92.4% 0.01 258);
+  --color-grayscale-10: oklch(96.3% 0.005 258);
+
+  /* -- Translucence -- */
+  --color-grayscale-50-trans-20: oklch(61.1% 0.02 258 / 20%);
+  --color-grayscale-10-trans-10: oklch(96.3% 0.005 258 / 10%);
+  --color-grayscale-10-trans-40: oklch(96.3% 0.005 258 / 40%);
+
+  /* -- Green -- */
+  --color-green-50: oklch(57.5% 0.17 142);
+  --color-green-20: oklch(61.2% 0.12 142);
+  --color-green-10: oklch(63.4% 0.10 142);
+
+  /* -- Red -- */
+  --color-red-10: oklch(69.8% 0.19 25);
+
+  
+  /* -- Semantics -- */
+  /* Functional */
+  --color-primary: var(--color-green-10);
+  --color-primary-active: var(--color-green-20);
+  --color-warning: var(--color-red-10);
+
+  /* Surface */
+  --color-surface-10: var(--color-grayscale-10);
+  --color-surface-20: var(--color-grayscale-20);
+  --color-surface-30: var(--color-grayscale-30);
+  --color-surface-black: var(--color-grayscale-90);
+
+  /* Text */
+  --color-text-highlight: var(--color-green-10);
+  --color-text-on-primary: var(--color-grayscale-10);
+  --color-text-on-color: var(--color-grayscale-10);
+  --color-text-10: var(--color-grayscale-100);
+  --color-text-20: var(--color-grayscale-70);
+  --color-text-30: var(--color-grayscale-40);
+
+  /* Stroke */
+  --color-stroke-10-trans: var(--color-grayscale-50-trans-20);
+  --color-stroke-10: var(--color-grayscale-30);
+  --color-stroke-20: var(--color-grayscale-40);
 }
 .title-l {
   font-size: 24px;
